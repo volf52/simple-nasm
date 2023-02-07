@@ -32,6 +32,12 @@ clang -g -Wall -Wextra -pedantic -Werror -no-pie -Wl,--fatal-warnings -o exec ou
 
 - [Example](./hello_makefile)
 
+## Formatter
+
+- [NasmFMT](https://github.com/yamnikov-oleg/nasmfmt) - Requires Go
+
+Flags: `-ii 4 -ci 36`
+
 ## Resources
 
 - https://p403n1x87.github.io/getting-started-with-x86-64-assembly-on-linux.html
