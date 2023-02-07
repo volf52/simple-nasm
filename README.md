@@ -1,4 +1,5 @@
 # Testing different things with x86_64 NASM
+
 ```bash
 objdump -t elfexec
 ldd elfexec
@@ -30,7 +31,11 @@ clang -g -Wall -Wextra -pedantic -Werror -no-pie -Wl,--fatal-warnings -o exec ou
 
 ## Interop (C + ASM) - Makefile
 
-- [Example](./hello_makefile)
+- [Example](./hello_makefile/)
+
+## Interop (C + ASM) - CMake
+
+- [Example](./hello_cmake/)
 
 ## Formatter
 
